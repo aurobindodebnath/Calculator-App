@@ -43,6 +43,8 @@ class App extends Component {
     });
   }
   operate(operation){
+    let text;
+    let lastChar;
     switch(operation){
       case 'AC':
         this.setState({
@@ -51,7 +53,7 @@ class App extends Component {
         });
         return;
       case 'DEL':
-        let text = this.state.result.split('');
+        text = this.state.result.split('');
         text.pop();
         this.setState({
           result : text.join('')
@@ -61,7 +63,7 @@ class App extends Component {
       case '+':
       case '*':
       case '/':
-        const lastChar = this.state.result.split('').pop();
+        lastChar = this.state.result.split('').pop();
         if(this.operators.indexOf(lastChar)>0) return;
         if( this.state.result == "") return;
         this.setState({
