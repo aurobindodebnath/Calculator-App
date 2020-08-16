@@ -1,9 +1,9 @@
-# Calculator-RN
+# Calculator-App
 
 ## Introduction
 This is a Calculator App built in React Native. Since React Native is cross-platform, the application can run both in Android and IOS post built.
 
-**_ NOTE- THE PROJECT IS NO LONGER MAINTAINED. THE DEPENDENCIES MAY BE OUTDATED _**
+__Note__- _The project is no longer maintained. The dependencies may be outdated_
 
 ## Preview
 ![alt text](calculator-RN.png)  
